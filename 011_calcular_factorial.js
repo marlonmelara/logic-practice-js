@@ -27,8 +27,7 @@ factorial({});
 factorial(-5);
 factorial(5);
 
-/**
-Por supuesto, aquí está la explicación de cómo funciona esta función:
+/*
 
 1. La función `factorial` toma un único parámetro llamado `numero`. El valor predeterminado de este parámetro es `undefined`, lo que significa que si no pasas un argumento cuando llamas a la función, `numero` será `undefined`.
 
