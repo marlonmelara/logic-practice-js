@@ -15,3 +15,29 @@
 
         * Géneros Aceptados: Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary ,Drama, Family, Fantasy, Film Noir, Game-Show, History, Horror, Musical, Music, Mystery, News, Reality-TV, Romance, Sci-Fi, Short, Sport, Talk-Show, Thriller, War, Western.
         */
+
+class Pelicula {
+  constructor({ id, titulo, director, estreno, pais, generos, calificacion }) {
+    this.id = id;
+    this.titulo = titulo;
+    this.director = director;
+    this.estreno = estreno;
+    this.pais = pais;
+    this.generos = generos;
+    this.calificacion = calificacion;
+
+    this.validarIMDB(id);
+  }
+
+  validarCadena(propiedad, valor) {
+    if (!valor) return console.warm(`${propiedad} "${valor}" esta vacío`);
+    if (typeof valor !== "string")
+      return console.error(
+        `${propiedad} "${valor}" ingresado,NO es una cadena de texto `
+      );
+
+    return true;
+  }
+
+  validarIMDB(id) {}
+}
