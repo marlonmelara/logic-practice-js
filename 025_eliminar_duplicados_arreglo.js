@@ -47,7 +47,7 @@ Aquí está el análisis del código paso a paso:
 
 6. Si el arreglo tiene solo un elemento, la función muestra un mensaje de advertencia "El arreglo debe tener al menos 2 elementos".
 
-7. Luego, la función retorna un objeto que contiene el arreglo original (`original`) y el arreglo filtrado que elimina los elementos duplicados (`sinDuplicados`). Para lograr esto, se utiliza el método `filter` para iterar a través del arreglo y se verifica si el índice del valor actual es igual al índice de su primera aparición en el arreglo utilizando `indexOf`. Esto asegura que solo los elementos únicos se mantengan en el arreglo resultante.
+7. Luego, la función retorna un objeto que contiene el arreglo original (`original`) y el arreglo filtrado quste elimina los elementos duplicados (`sinDuplicados`). Para lograr esto, se utiliza el método `filter` para iterar a través del arreglo y se verifica si el índice del valor actual es igual al índice de su primera aparición en el arreglo utilizando `indexOf`. Esto asegura que solo los elementos únicos se mantengan en el arreglo resultante.
 
 8. Se invoca la función `quitarDuplicados` dos veces: una vez sin argumentos y otra vez con un arreglo que contiene elementos duplicados para demostrar cómo maneja diferentes situaciones de entrada.
 

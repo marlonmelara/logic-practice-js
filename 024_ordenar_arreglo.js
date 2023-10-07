@@ -35,7 +35,7 @@ Aquí está el análisis del código paso a paso:
 
 3. Si el parámetro `arr` es `undefined`, la función muestra un mensaje de error "No ingresaste un arreglo de números".
 
-4. Si el parámetro `arr` no es un arreglo, la función muestra un mensaje de error "El valor que ingresaste no es un arreglo".
+4. Si el parámetro `arr` no es un arreglo, la fucnción muestra un mensaje de error "El valor que ingresaste no es un arreglo".
 
 5. Si el arreglo está vacío, la función muestra un mensaje de error "El arreglo está vacío".
 
